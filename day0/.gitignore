@@ -1,0 +1,46 @@
+# Elixir build artifacts
+/_build/
+
+# Dependencies directory
+/deps/
+
+# Generated documentation
+/doc/
+
+# Temporary files from tests
+/tmp/
+/cover/
+
+# Local configuration files
+.fetch
+*.ez
+
+# Project archive files
+day0-*.tar
+day0-*.gz
+
+# Local environment files
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor/IDE specific files
+.elixir_ls/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mix lock file (uncomment if you want to ignore it)
+# mix.lock
+
+# Crash dumps
+erl_crash.dump
